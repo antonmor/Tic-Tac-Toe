@@ -13,3 +13,11 @@
 Gem TicTacToe-0.0.1.gem require the class `Tic` to use you need to build main.rb
 
 ### About algorithm
+
+This is a educative game you need to have hard knowledge in math special at "Cartesian's plane" to choose coordinates to get place in the board.
+The Tic Tac Toe board is same to  Cartesian's plane because its similary to use cells to identify all position that have.
+With a simple change in the coordinates format, example normaly we write (x,y) to express the coordinates in one plane with "x" and "y" pivot, but in this game we'll expres (x,y) with xy no math signs, ex. (1,2) ~> 12 that means x = 1 and y = 2 expressing that ordinary number.
+This game is funny and helpful all students that needs to reforce them habilities at "Cartesian's plane"
+
+by 
+Antonio Moreno
