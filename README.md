@@ -1,4 +1,5 @@
-#Tic Tac Toe {Gato}
+# Tic Tac Toe {Gato}
+## Rules
 <ul>
   <li>Two players represented with X and O</li>
   <li>First time the game is played, X starts</li>
