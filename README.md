@@ -11,6 +11,8 @@
 ## Explain
 
 ```mermaid
+sequenceDiagram
+
 gemspec ->> TicTacToe-0.0.1.gem: gem build tictactoe.gemspec
 
 ```
