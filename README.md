@@ -10,9 +10,6 @@
 
 ## Explain
 
-```mermaid
-sequenceDiagram
+Gem TicTacToe-0.0.1.gem require the class `Tic` to use you need to build main.rb
 
-gemspec ->> TicTacToe-0.0.1.gem: gem build tictactoe.gemspec
-
-```
+### About algorithm
