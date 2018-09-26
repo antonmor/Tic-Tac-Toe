@@ -12,17 +12,19 @@
 
 This is a educative game you need to have hard knowledge in math special at "Cartesian's plane" to choose coordinates to get place in the board.
 The Tic Tac Toe board is same to  Cartesian's plane because its similary to use cells to identify all position that have.
-With a simple change in the coordinates format, example normaly we write (x,y) to express the coordinates in one plane with "x" and "y" pivot, but in this game we'll expres (x,y) with xy no math signs, ex. (1,2) ~> 12 that means x = 1 and y = 2 expressing that ordinary number.
+With a simple change in the coordinates format, example normaly we write (x,y) to express the coordinates in one plane with "x" and "y" pivot, but in this game we'll expres (x,y) with xy no math signs, ex. (1,2) -> 12 that means x = 1 and y = 2 expressing that ordinary number.
 This game is funny and helpful all students that needs to reforce them habilities in "Cartesian's plane" of math
 
 ```mermaid
 sequenceDiagram
-Player X -->>TicTacToe: put X
-TicTacToe -->>TicTacToe: check user win
-TicTacToe -->>Player O:Print board
-Player O-->>TicTacToe: put 0
-TicTacToe -->>TicTacToe: check user win
-TicTacToe-->> Player X: Print board
+  loop until there is a winner
+    Player X -->>TicTacToe: put X
+    TicTacToe -->>TicTacToe: check user win
+    TicTacToe -->>Player O:Print board
+    Player O-->>TicTacToe: put 0
+    TicTacToe -->>TicTacToe: check user win
+    TicTacToe-->> Player X: Print board
+  end
 Note right of TicTacToe: The process repeat<br/> until TicTacToe define<br/>which player are the<br/> winner.
 ```
 
